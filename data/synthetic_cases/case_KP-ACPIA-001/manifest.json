@@ -1,0 +1,29 @@
+{
+  "case_number": "CR-KP-ACPIA-2026-001",
+  "title": "Operation CyberShield — Telegram Ring & Crypto Channel",
+  "description": "Cross-platform forensic investigation into coordinated exploitation ring operating via Telegram and Discord. Targets digital alias @anand_cyber, crypto transactions, and mobile phone telemetry in Kerala.",
+  "status": "ACTIVE",
+  "fixtures": [
+    {
+      "file_name": "chat_intercept_alpha.txt",
+      "modality": "CHAT_LOG",
+      "reliability": 0.95,
+      "authenticity": 0.98,
+      "content": "[2026-08-14 09:15:00] Suspect_Anand: Send files to anand.invest@protonmail.com\n[2026-08-14 09:16:30] Suspect_Anand: Backup contact is +919847112233\n[2026-08-14 09:18:00] Location: Kozhikode, Kerala\n[2026-08-14 09:20:00] Wallet: 0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed\n[2026-08-14 09:25:00] UserB: Received. Checking wallet balance."
+    },
+    {
+      "file_name": "hotel_wifi_auth_log.json",
+      "modality": "DOCUMENT",
+      "reliability": 0.90,
+      "authenticity": 0.92,
+      "content": "{\"event\": \"WIFI_AUTH\", \"timestamp\": \"2026-08-14T09:18:30Z\", \"device_mac\": \"AA:BB:CC:DD:EE:FF\", \"hotel\": \"Grand Beach Resort\", \"location\": \"Thiruvananthapuram, Kerala\", \"latitude\": 8.5241, \"longitude\": 76.9366, \"statement\": \"Suspect device authenticated at Grand Beach Resort in Thiruvananthapuram at timestamp 2026-08-14T09:18:30Z.\"}"
+    },
+    {
+      "file_name": "damaged_cdr_dump.bin",
+      "modality": "CALL_RECORD",
+      "reliability": 0.50,
+      "authenticity": 0.50,
+      "content": "DELIBERATELY_CORRUPTED_BINARY_DATA_\u0000\u0001\u0002\u0003_HEADER_INVALID"
+    }
+  ]
+}

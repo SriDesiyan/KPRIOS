@@ -1,0 +1,6 @@
+
+    [2026-08-14 09:15:00] Suspect_Anand: Send files to anand.invest@protonmail.com
+    [2026-08-14 09:16:30] Suspect_Anand: Backup contact is +919847112233
+    [2026-08-14 09:18:00] Location: Kozhikode, Kerala
+    [2026-08-14 09:20:00] Wallet: 0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed
+    
