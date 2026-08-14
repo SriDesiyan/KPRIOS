@@ -132,16 +132,3 @@ npm run build                # TypeScript compilation and Vite production build
 
 ---
 
-## 6. Reference Repositories & License Compliance
-
-See [docs/REPO_ANALYSIS.md](docs/REPO_ANALYSIS.md) and [docs/LICENSES.md](docs/LICENSES.md) for full evaluations of all 10 workspace reference repositories:
-- `ArkhamMirror-main` (MIT) — Reference-only for graph/timeline UI panels
-- `CAC-Ontology-main` (Apache 2.0) — Semantic concepts for crimes-against-children entities
-- `ChildShield-Forensics-main` (MIT) — Child protection triage workflows
-- `DFIR-Companion-master` (AGPLv3) — Reject code / Reference-only for timeline interaction
-- `Fluenci-main (1)` (Proprietary) — Reference-only for UI visual aesthetics
-- `IPED-master` (GPLv3) — Reject code / Reference-only for immutable SHA-256 ingestion concepts
-- `KSPDatathon-main` (MIT) — Police-specific UX patterns & audit trails
-- `Qantara-main` (MIT) — Reference-only for UI component hierarchy
-- `solve-it-main` (MIT) — Forensic weakness/mitigation taxonomy
-- `VolWeb-main` (GPLv3) — Reject code / Reference-only for status queue UI
