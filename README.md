@@ -450,9 +450,13 @@ npm run build
 * **Deployment Reference:** Early prototype / initial deployment exploration.  
   *Status:* Experimental / Pre-Hackathon exploration.
 
+  Link: https://kprios-lsmk.vercel.app/dashboard
+
 ### Initial Architecture Exploration
 * **Eraser Architecture Diagram:** Early conceptual architecture exploration created during the initial design phase.  
   *Status:* Superseded by the finalized, verified Two-Agent Architecture documented in [docs/ARCHITECTURE_FINAL.md](docs/ARCHITECTURE_FINAL.md).
+
+  link : https://app.eraser.io/workspace/aZ9KiByG5jqW77N3DHOl
 
 ---
 
